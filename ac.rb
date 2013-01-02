@@ -12,6 +12,8 @@ class Item
   property :type,   Text
 end
 
+DataMapper.finalize
+
 get '/' do
   erb :home
 end
