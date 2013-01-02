@@ -1,0 +1,134 @@
+Name,Price,Type
+Agrias Butterfly,3000,bug
+Ant,80,bug
+Atlas Beetle,8000,bug
+Bagworm,300,bug
+Banded Dragonfly,4500,bug
+Bee,4500,bug
+Bell Cricket,430,bug
+Birdwing Butterfly,3000,bug
+Brown Cicada,200,bug
+Centipede,300,bug
+Cockroach,5,bug
+Common Butterfly,90,bug
+Crab,150,bug
+Cricket,130,bug
+Cyclommatus,8000,bug
+Darner Dragonfly,200,bug
+Diving Beetle,800,bug
+Dung Beetle,800,bug
+Dynastid Beetle,1350,bug
+Elephant Beetle,8000,bug
+Emperor Butterfly,2500,bug
+Evening Cicada,550,bug
+Firefly,300,bug
+Flea,70,bug
+Fly,60,bug
+Fruit Beetle,100,bug
+Giant Beetle,10000,bug
+Giant Petaltail,8000,bug
+Golden Stag,12000,bug
+Goliath beetle,6000,bug
+Grasshopper,160,bug
+Hercules Beetle,12000,bug
+Honeybee,100,bug
+Jewel Beetle,2400,bug
+Ladybug,200,bug
+Lantern Fly,1800,bug
+Long Locust,200,bug
+Longhorn Beetle,260,bug
+Mantis,430,bug
+Migratory Locust,600,bug
+Miyama Stag,1000,bug
+Mole Cricket,280,bug
+Monarch Butterfly,90,bug
+Mosquito,130,bug
+Moth,60,bug
+Oak Silk Moth,1200,bug
+Orchid Mantis,2400,bug
+Peacock (Butterfly),220,bug
+Pill Bug,250,bug
+Pine Cricket,100,bug
+Pondskater,130,bug
+Rainbow Stag,10000,bug
+Raja Brooke Butterfly,2500,bug
+Red Dragonfly,80,bug
+Robust Cicada,300,bug
+Saw Stag Beetle,2000,bug
+Scarab Beetle,6000,bug
+Scorpion,8000,bug
+Snail,250,bug
+Spider,300,bug
+Stag Beetle,2000,bug
+Tarantula,8000,bug
+Tiger Butterfly,160,bug
+Violin Beetle,250,bug
+Walker Cicada,400,bug
+Walkingstick,600,bug
+Walking Leaf,600,bug
+Yellow Butterfly,90,bug
+Angelfish,3000,fish
+Arapaima,10000,fish
+Arowana,10000,fish
+Barbel Steed,200,fish
+Barred Knifejaw,5000,fish
+Bitterling,900,fish
+Black Bass,300,fish
+Blue Marlin,10000,fish
+Bluegill,120,fish
+Butterflyfish,1000,fish
+Carp,300,fish
+Catfish,800,fish
+Char,3800,fish
+Cherry Salmon,1000,fish
+Clownfish,650,fish
+Coelacanth,15000,fish
+Crawfish,250,fish
+Crucian Carp,120,fish
+Dab,300,fish
+Dace,200,fish
+Dorado,15000,fish
+Eel,2000,fish
+Football Fish,2500,fish
+Freshwater Goby,300,fish
+Frog,120,fish
+Gar,6000,fish
+Giant Snakehead,5500,fish
+Goldfish,1300,fish
+Guppy,1300,fish
+Hammerhead Shark,8000,fish
+Herabuna,300,fish
+Horse Mackerel,150,fish
+Jellyfish,100,fish
+Killifish,300,fish
+King Salmon,1800,fish
+Koi,4000,fish
+Loach,300,fish
+Lobster,2500,fish
+Moray Eel,2000,fish
+Napoleonfish,10000,fish
+Neon Tetra,500,fish
+Ocean Sunfish,4000,fish
+Octopus,500,fish
+Olive Flounder,800,fish
+Pale Chub,200,fish
+Pike,1800,fish
+Piranha,2500,fish
+Popeyed Goldfish,1300,fish
+Pond Smelt,300,fish
+Puffer Fish,240,fish
+Rainbow Trout,800,fish
+Ray,3000,fish
+Red Snapper,3000,fish
+Salmon,700,fish
+Sea Bass,160,fish
+Sea Butterfly,1000,fish
+Seahorse,1100,fish
+Shark,15000,fish
+Squid,400,fish
+Stringfish,15000,fish
+Surgeonfish,1000,fish
+Sweetfish,900,fish
+Tuna,7000,fish
+Yellow Perch,240,fish
+Zebra Turkeyfish,400,fish
