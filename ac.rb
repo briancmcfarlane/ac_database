@@ -1,4 +1,7 @@
 require 'sinatra'
+require 'sqlite3'
+
+db = SQLite3::Database.new( 'ac.db' )
 
 get '/' do
   erb :home
