@@ -7,7 +7,8 @@ end
 
 post '/' do
   @db = SQLite3::Database.new('ac.db')
-  @lookup = @db.execute("select price from item where name = ?", params[:query]).join("")
+  @query = params[:query].split(' ').each{|word| word.capitalize!}.join(' ')
+  @lookup = @db.execute("select * from item where name = ?", @query).join(',')
   if @lookup != ''
     @result = @lookup + ' bells'
   else
