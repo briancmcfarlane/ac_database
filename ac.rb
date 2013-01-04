@@ -13,9 +13,9 @@ end
 post '/' do
   @db = SQLite3::Database.new('ac.db')
   @query = titlecase_each_word(params[:query])
-  @lookup = @db.execute("select price from item where name = ?", @query).join(',')
-  if @lookup != ''
-    @result = @lookup + ' bells'
+  @price = @db.execute("select price from item where name = ?", @query).join(',')
+  if @price != ''
+    @result = 'A ' + @query.downcase + ' will fetch ' + @price + ' bells.'
   else
     @result = 'No item by that name.'
   end
