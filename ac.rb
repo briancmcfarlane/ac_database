@@ -1,14 +1,19 @@
 require 'sinatra'
 require 'sqlite3'
 
+def titlecase_each_word(mixed_case_string)
+  titlecase_string = mixed_case_string.split(' ').each{|word| word.capitalize!}.join(' ')
+  return titlecase_string
+end
+
 get '/' do
   erb :home
 end
 
 post '/' do
   @db = SQLite3::Database.new('ac.db')
-  @query = params[:query].split(' ').each{|word| word.capitalize!}.join(' ')
-  @lookup = @db.execute("select * from item where name = ?", @query).join(',')
+  @query = titlecase_each_word(params[:query])
+  @lookup = @db.execute("select price from item where name = ?", @query).join(',')
   if @lookup != ''
     @result = @lookup + ' bells'
   else
