@@ -1,10 +1,9 @@
-<form action="/" method="post">
-  <div class="input-append">
-    <input class="span3" type="text" name="query" placeholder="Name of bug or fish">
-    <input class="btn" type="submit" value="Search">
-  </div>
-</form>
-
-<% if @result %>
-  <p><%= @result %></p>
-<% end %>
+      <form action="/" method="post">
+        <div class="input-append">
+          <input class="span3" type="text" name="query" placeholder="Name of bug or fish">
+          <input class="btn" type="submit" value="Search">
+        </div>
+      </form>
+    <% if @result %>
+      <p><%= @result %></p>
+    <% end %>
